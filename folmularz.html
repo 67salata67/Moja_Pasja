@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="ferrari">
+        <meta name="description" contant="ferrari">
+        <meta name="author" content="michal">
+        <meta name="copyright" content="prawa autorskie">
+        <title>Formuła 1</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="OBRAZY/ikona.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Orbitron:wght@400..900&family=Pinyon+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="img2" style="width: 600px; height: 150px;">
+                <img src="OBRAZY/logo.png"  alt="zdjęcie">
+            </div>
+            <div class="naglowek">
+                <h1>Formuła 1</h1>
+                <h2>Prędkość, technologia i emocje na najwyższym poziomie</h2>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="index.html">Strona Główna</a>
+            <a href="aaa.html">Kierowcy i Drużyny</a>
+            <a href="Multimedia.html">Multimedia</a>
+            <a href="NW.html">Najnowsze Informacje</a>
+            <a href="dokumentacja/dokumentacja/gggggggg.pdf">Dokumentacja</a>
+            <a href="folmularz.html">kontakt</a>
+        </div>
+        <div class="container2">
+            <div class="kontakt">
+                <h2>Skontaktuj się ze mną</h2>
+                <form>
+                    <div>
+                        <label for="imie">Imię i nazwisko:</label><br>
+                        <input type="text" id="imie" name="imie" required minlength="2">
+                    </div>
+                    <div>
+                        <label for="email">Adres e-mail:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="telefon">Numer telefonu (opcjonalnie):</label><br>
+                        <input type="tel" id="telefon" name="telefon" pattern="[0-9+\s]{6,15}">
+                    </div>
+                    <div>
+                        <label for="temat">Temat wiadomości:</label><br>
+                        <input type="text" id="temat" name="temat" required>
+                    </div>
+                    <div>
+                        <label for="wiadomosc">Wiadomość:</label><br>
+                        <textarea id="wiadomosc" name="wiadomosc" rows="5" required minlength="10"></textarea>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="zgoda" required>
+                            Wyrażam zgodę na przetwarzanie moich danych osobowych w celu kontaktu.
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit">Wyślij wiadomość</button>
+                        <button type="reset">Wyczyść</button>
+                    </div>
+                </form>
+            </div>
+            <div class="img" style="width: 700px; height: 400px;">
+                <img src="OBRAZY/max-verstappen-f1-2025-hiszpania-barcelona.avif" alt="zdjęcie">
+            </div>
+        </div>     
+        <div class="footer">
+            <p>Projekt: 20.02.2026 | Autor: Michal Kapusta</p>
+        </div>
+    </body>
+</html>
